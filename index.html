@@ -440,7 +440,7 @@ html,body{width:100%;height:100%;overflow:hidden;background:#07112a;font-family:
 </style>
 </head>
 <body>
-<audio id="bgMusic" loop><source src="assets/music.mp3" type="audio/mp3"></audio>
+<source src="music.mp3" type="audio/mp3">
 <canvas id="starCanvas"></canvas>
 <div id="balloonLayer"></div>
 <div id="confLayer"></div>
@@ -463,11 +463,25 @@ html,body{width:100%;height:100%;overflow:hidden;background:#07112a;font-family:
       <div class="fbal fb1">🎈</div><div class="fbal fb2">🎈</div><div class="fbal fb3">🎀</div><div class="fbal fb4">🎈</div>
       <div class="pol">
         <div class="polPhotos" id="polPhotos">
-          <div class="pslide on"><img src="photo1.jpg"> onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt=""><div class="pph" style="display:none">🌸</div></div>
-          <div class="pslide"><img src="photo2.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt=""><div class="pph" style="display:none">🌺</div></div>
-          <div class="pslide"><img src="photo3.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt=""><div class="pph" style="display:none">💫</div></div>
-          <div class="pslide"><img src="photo4.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt=""><div class="pph" style="display:none">🌙</div></div>
-        </div>
+          <div class="pslide on">
+<img src="photo1.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt="">
+<div class="pph" style="display:none">🌸</div>
+</div>
+
+<div class="pslide">
+<img src="photo2.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt="">
+<div class="pph" style="display:none">🌺</div>
+</div>
+
+<div class="pslide">
+<img src="photo3.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt="">
+<div class="pph" style="display:none">💫</div>
+</div>
+
+<div class="pslide">
+<img src="photo4.jpg" onerror="this.style.display='none';this.nextSibling.style.display='flex'" alt="">
+<div class="pph" style="display:none">🌙</div>
+</div>
         <div class="polBot"><span class="ps1">happy</span><span class="pb1">Birthday</span></div>
       </div>
       <div class="circBadge"><div class="circRing"><span style="--i:1">h</span><span style="--i:2">a</span><span style="--i:3">p</span><span style="--i:4">p</span><span style="--i:5">y</span><span style="--i:6">-</span><span style="--i:7">b</span><span style="--i:8">i</span><span style="--i:9">r</span><span style="--i:10">t</span><span style="--i:11">h</span><span style="--i:12">d</span><span style="--i:13">a</span><span style="--i:14">y</span><span style="--i:15">-</span></div><span class="circHeart">💕</span></div>
